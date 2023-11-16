@@ -1,10 +1,9 @@
 # Recipe_site_traffic
 # Table of Contents
-[I. Project Statement](https://github.com/nhh979/Bike_Sharing_Demand_proj/tree/main#i-problem-statement)  
-[II. Dataset](https://github.com/nhh979/Bike_Sharing_Demand_proj/tree/main#ii-dataset)  
-[III. Data Exploring](https://github.com/nhh979/Bike_Sharing_Demand_proj/tree/main#iii-data-pipeline)  
-[IV. Data Preprocessing and Model Building](https://github.com/nhh979/Bike_Sharing_Demand_proj/tree/main#iv-eda-summary)  
-
+[I. Project Statement](https://github.com/nhh979/Recipe_site_traffic/tree/main#i-project-statement)
+[II. Dataset](https://github.com/nhh979/Recipe_site_traffic/tree/main#ii-dataset)
+[III. Data Exploring](https://github.com/nhh979/Recipe_site_traffic/tree/main#iii-data-exploring)
+[IV. Data Preprocessing and Model Building](https://github.com/nhh979/Recipe_site_traffic/tree/main#iv-data-preprocessing-and-model-building)
 
 ## I. Project Statement
 Tasty Bytes is a search engine platform for food recipes. The task is to analyze the given and write a report with findings to help decide to choose which recipes to display on the homepage each day. 
@@ -46,5 +45,6 @@ The dataset contains 947 rows and 8 columns.
 **3. Model Training:** I tried multiple models such as Logistic Regression, K-Nearest Neighbor, Decision Tree, Random  Forestand, XGBoost and Support Vector Machine. I then did hyperparameter tuning using GridSearchCV and RandomizedSearchCV to find the best estimator. 
 
 **4. Model Evaluating:** Comparing the accuracy scores between those models I figured out **Logistic Regression, K Nearest Neighbors,** and **Support Vector Machine** had better performance because they provided high accuracy and less overfitting than other models based on **Accuracy score using 10-Fold Cross-Validation**. Out of those three model, **Support Vector Machine** model's performance is the best with the accuracy score of 80.2%.
-
+![](https://github.com/nhh979/Recipe_site_traffic/blob/main/images/baseline.png)
+![](https://github.com/nhh979/Recipe_site_traffic/blob/main/images/Tuned.png)
 
