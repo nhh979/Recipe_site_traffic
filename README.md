@@ -1,9 +1,9 @@
 # Recipe_site_traffic
 # Table of Contents
-[I. Project Statement](https://github.com/nhh979/Recipe_site_traffic/tree/main#i-project-statement)
-[II. Dataset](https://github.com/nhh979/Recipe_site_traffic/tree/main#ii-dataset)
-[III. Data Exploring](https://github.com/nhh979/Recipe_site_traffic/tree/main#iii-data-exploring)
-[IV. Data Preprocessing and Model Building](https://github.com/nhh979/Recipe_site_traffic/tree/main#iv-data-preprocessing-and-model-building)
+[I. Project Statement](https://github.com/nhh979/Recipe_site_traffic/tree/main#i-project-statement)  
+[II. Dataset](https://github.com/nhh979/Recipe_site_traffic/tree/main#ii-dataset)  
+[III. Data Exploring](https://github.com/nhh979/Recipe_site_traffic/tree/main#iii-data-exploring)  
+[IV. Data Preprocessing and Model Building](https://github.com/nhh979/Recipe_site_traffic/tree/main#iv-data-preprocessing-and-model-building)  
 
 ## I. Project Statement
 Tasty Bytes is a search engine platform for food recipes. The task is to analyze the given and write a report with findings to help decide to choose which recipes to display on the homepage each day. 
