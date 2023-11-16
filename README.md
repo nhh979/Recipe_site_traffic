@@ -29,13 +29,13 @@ The dataset contains 947 rows and 8 columns.
 - All numerical variables have right-skewed distributions
 - The Breakfast recipe makes up the highest number of recipes (106 out of 947 recipes, accounting for 11.2%)
 - Pork recipe has the largest average amount of calories, Potato recipe has the highest average amount of carbohydrate, Dessert recipe has much much more Sugar than other recipes, and similarly Chicken Breast has the most average amount of protein
-- Potato, Vegetable and Pok recipes are popular recipes since they made really high site traffic. Conversely, Beverages recipe is the least popular recipe.
+- Potato, Vegetable and Pok recipes are popular recipes since they made really high site traffic. Conversely, Beverages recipe is the least popular recipe
 
 **3. Data Cleaning:** 
-- Dropped `recipe` column
-- Removed rows that contained missing value in all of four columns `calories`, `carborhydrate`, `sugar`, `protein`
-- Made the data in `servings` column consistent
-- Converted data in `high_traffic` column into numeric data
+- Dropped `recipe` column.
+- Removed rows that contained missing value in all of four columns `calories`, `carborhydrate`, `sugar`, `protein`.
+- Made the data in `servings` column consistent.
+- Converted data in `high_traffic` column into numeric data.
 
 ## IV. Data Preprocessing and Model Building
 **1. Feature Engineering:** I double-checked the `calories` column and found out there were a lot of unresonably low values in the column. I recalculated and replaced those values using the formula `calories = 4 * (carbohydrate + protein + sugar), according to [Food and Nutrition Information Center (FNIC)](https://www.nal.usda.gov/programs/fnic). I then dummy variables for each categorical columns.
